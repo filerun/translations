@@ -95,8 +95,6 @@
       'E-mail Files' => 'Odeslat e-mailem',
       'Get link' => 'Odkaz na web',
       'Details and activity' => 'Oznámení',
-      'Upload, Delete, Rename, etc.' => 'Nahrát, smazat, přejmenovat atd.',
-      'Download, Preview, Copy, etc.' => 'Stáhnout, náhled, kopírovat atd.',
       'Versioning' => 'Verzování',
       'Previous Versions' => 'Předchozí verze',
       'Lock' => 'Zamknout',
@@ -246,9 +244,7 @@
       'Save changes' => 'Uložit',
       'Cancel' => 'Zrušit',
       'Please type the current password correctly.' => 'Chybné původní heslo.',
-      'Please do not use question marks (?) for the new password.' => 'Prosím nepoužívejte otazníky (?) pro nové heslo.',
       'Please retype the new password correctly.' => 'Hesla se neshodují.',
-      'The new password is the same as the current one.' => 'Nové heslo je stejné jako původní.',
     ),
     'E-mail Files' => 
     array (

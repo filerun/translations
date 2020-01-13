@@ -15,6 +15,13 @@
       'Create account' => '註冊',
       'Forgot password?' => '忘記密碼？',
       'Signing in...' => '登入中...',
+      'Your account access is limited to a particular IP address!' => '你的帳號僅限特定 IP 地址使用！',
+      '2-step verification: add account' => '兩步驟驗證：新增帳號',
+      'Done' => '完成',
+      'Verification code' => '驗證碼',
+      'Loading...' => '載入中...',
+      '2-step: Add account' => '兩步驟：新增帳號',
+      'Authentication should be made with the remote system.' => '需使用遠端系統驗證。',
     ),
     'User Registration' => 
     array (
@@ -43,6 +50,25 @@
       'Login' => '登入',
       'Your account information has been emailed to you!' => '您的帳號資訊已經Email給您！',
       'An e-mail message has been sent at "%1" with details on how to complete the registration process.' => '關於如何完成註冊過程的詳情，已透過Email寄送至"%1"。',
+      'E-mail address already registered. Please use the password recovery options if you forgot your password.' => '此 Email 已被註冊。若忘記密碼請使用密碼救援選項。',
+      'Cancel' => '取消',
+      'Please make sure you are not a robot! :)' => '請讓我確認你不是機器人！ ：）',
+      'Please type your last name!' => '請輸入姓名！',
+      'Loading...' => '載入中...',
+      'Phone' => '電話',
+      'Please type the phone number' => '請輸入電話號碼',
+    ),
+    'Password Reset' => 
+    array (
+      'The login information has been sent to your email address.' => '登入資訊已傳到你的 Email 了。',
+      'Password Reset' => '密碼重設',
+      'E-mail address' => 'Email 地址',
+      'Submit' => '提交',
+      'Please type the e-mail address.' => '請輸入 Email 地址。',
+      'The e-mail address was not found in the database.' => '未發現此 Email 地址。',
+      'Please check your inbox for information on how to reset your account\'s password.' => '請檢查你的收件箱，來了解關於如何重設密碼的資訊。',
+      'Please wait...' => '請稍等...',
+      'Sign in' => '登入',
     ),
     'Main Interface' => 
     array (
@@ -222,9 +248,13 @@
     'Trash' => 
     array (
       'A file or folder already exists at the original location.' => '回收筒：該還原路徑已經存在。',
+      'One item permanently deleted.' => '1 個項目已永久刪除。',
       'No items were restored!' => '還原 0 個項目！',
       'One item restored.' => '還原 1 個項目。',
       '%1 items successfully restored.' => '還原成功 %1 個項目。',
+      'Trash emptied' => '回收筒已清空',
+      'Failed to empty trash' => '清空回收筒失敗',
+      '%1 items permanently deleted.' => '%1 個項目已永久刪除。',
     ),
     'Account Settings' => 
     array (
@@ -234,9 +264,7 @@
       'Save changes' => '儲存',
       'Cancel' => '取消',
       'Please type the current password correctly.' => '請正確輸入目前密碼。',
-      'Please do not use question marks (?) for the new password.' => '新密碼請勿使用問號(?)。',
       'Please retype the new password correctly.' => '請正確地重新輸入新密碼。',
-      'The new password is the same as the current one.' => '新密碼與目前密碼相同。',
     ),
     'E-mail Files' => 
     array (
@@ -312,6 +340,8 @@
       'Saving data...' => '儲存資料中...',
       'Failed to save data!' => '儲存資料失敗！',
       '- No Special Type -' => '- 無指定類型 -',
+      'No changes were made' => '無變更',
+      'Changes saved' => '已儲存變更',
     ),
     'Versioning' => 
     array (
@@ -345,6 +375,7 @@
       'Searching...' => '搜尋中...',
       'Search' => '搜尋',
       '- None Selected -' => '- 未選定 -',
+      'Metadata Type' => '詮釋資料類型',
     ),
     'File Comments' => 
     array (
@@ -363,10 +394,31 @@
       'Comment successfully removed.' => '留言已成功刪除。',
       'Failed to remove comment from file.' => '從檔案刪除留言失敗。',
     ),
+    'Custom Actions: Image Editor' => 
+    array (
+      'Apply' => '套用',
+      'Close' => '關閉',
+      'Save and close' => '儲存並關閉',
+      'Save' => '儲存',
+      'Failed to load image!' => '載入圖像失敗！',
+      'Loading image..' => '載入圖像...',
+      'Cancel' => '取消',
+      'Crop' => '裁切',
+      'Scale down' => '縮小',
+      'Rotate' => '旋轉',
+      'Reset' => '重設',
+      'Flip horizontal' => '水平翻轉',
+      'Flip vertical' => '垂直翻轉',
+      'Fit to screen' => '符合螢幕大小',
+      'Full size' => '原始大小',
+      'Reload image' => '重新載入圖像',
+      'Uploading image..' => '正在上傳圖像...',
+    ),
     'Admin' => 
     array (
       'Control Panel' => '控制面板',
       'Users' => '使用者',
+      'Import users' => '匯入使用者',
       'Activity logs' => '活動日誌',
       'E-mail notifications' => 'E-mail通知',
       'Configuration' => '系統配置',
@@ -381,10 +433,48 @@
       'Software licensing' => '軟體版權',
       'Tools' => '工具',
       'Storage usage' => '檔案空間配額使用率',
+      'Traffic quota usage' => '網路用量配額',
+      'Login as' => '登入為',
       'Archive logs' => '封存日誌',
       'Roles' => '角色',
       'Groups' => '群組',
-      'Image preview' => '檔案預覽及縮圖',
+      'Thumbnails and preview' => '檔案預覽及縮圖',
+      'File Manager' => '檔案總管',
+      'Sign out' => '登出',
+      'Displaying records {0} - {1} of {2}' => '顯示記錄 {0} - {1} 共 {2}',
+      'No records to display' => '無記錄可顯示',
+      'Page' => '頁',
+      'of {0}' => '共 {0}',
+      'First Page' => '第一頁',
+      'Last Page' => '最後一頁',
+      'Next Page' => '下一頁',
+      'Previous Page' => '上一頁',
+      'Refresh' => '重新整理',
+      'Add' => '新增',
+      'Edit' => '編輯',
+      'Search' => '搜尋',
+      'Quick search' => '快速搜尋',
+      'Save changes' => '儲存變更',
+      'Add Groups' => '新增群組',
+      'Add Users' => '新增使用者',
+      'Remove Selected' => '移除所選',
+      'Select Users' => '選擇使用者',
+      'Delete' => '刪除',
+      'Cancel' => '取消',
+      'Delete users?' => '刪除這些用戶？',
+      'Searching' => '搜尋中',
+      'Welcome to FileRun!' => '歡迎使用 FileRun！',
+      'View' => '查看',
+      'Password policy' => '密碼策略',
+      'Export users' => '匯出使用者',
+      'Options' => '選項',
+      'Settings' => '設定',
+      'Logs' => '記錄',
+      'Defaults' => '預設',
+      'Files' => '檔案',
+      'Security' => '安全',
+      'More' => '更多',
+      'Notifications' => '通知',
     ),
     'Admin: Setup' => 
     array (
@@ -414,9 +504,8 @@
       'New accounts require admin activation.' => '新帳號需要管理員啟用。',
       'Automatically generate the passwords.' => '自動產生密碼。',
       'Required fields' => '必填欄位',
-      'Enable ImageMagick support.' => '啟用 ImageMagick 支援。',
-      'Path to ImageMagick "convert" binary' => 'ImageMagick "轉換" 二進制路徑',
-      'Generate ImageMagick thumbnails for the following file types' => '為以下檔案類型產生ImageMagick 的縮圖',
+      'ImageMagick support' => '啟用 ImageMagick 支援。',
+      'Path to "magick" or "convert" binary' => 'ImageMagick "轉換" 二進制路徑',
       'Thumbnail size' => '縮圖大小',
       'Enable FFmpeg support.' => '啟動 FFmpeg 支援。',
       'Path to FFmpeg binary' => '指定路徑到 FFmpeg 二進制',
@@ -764,8 +853,14 @@
     array (
       'Software licensing' => '軟體版權',
       'You are using <b>%1 user accounts</b> out of <b>%2</b>.' => '您正在使用 總共<b>%2</b>個使用者帳號中的<b>%1 </b> 個。',
+      'Update' => '升級',
       'Failed to upgrade license:' => '版權升級失敗：',
+      'Failed to connect to licensing server!' => '無法連上授權伺服器！',
+      'License successfully updated.' => '授權升級成功',
+      'The license will expire on <b>%1</b>.' => '此授權於 <b>%1</b> 過期。',
       'License upgraded.<br><span class="nowrap">You can now have <strong>%1</strong> user accounts.</span>' => '版權已升級。<br><span class="nowrap">您現在可以擁有 <strong>%1</strong> 個使用者帳號。</span>',
+      'License key in use: <b>%1</b>' => '授權金鑰使用在： <b>%1</b>',
+      'unlimited' => '無限制',
     ),
     'Admin: Software update' => 
     array (
@@ -807,11 +902,100 @@
       'Used' => '已使用',
       'Usage' => '使用率',
       'Calculating quota usage for "%1"...' => '為 "%1" 計算空間配額使用率...',
+      'Last reset happened on %1.' => '最後重設於 %1 。',
+      'Reset now' => '立即重設',
     ),
     'Admin: Tools: Import Users' => 
     array (
       'Comma' => '逗號',
       'Semicolon' => '分號',
+    ),
+    'Metadata: Custom' => 
+    array (
+      'Height' => '高',
+      'Width' => '寬',
+      'Duration' => '時長',
+      'Author' => '作者',
+      'Description' => '簡介',
+      'Copyright' => '版權',
+      'GPS latitude' => '緯度',
+      'GPS longitude' => '經度',
+      'Movie title' => '影片標題',
+      'Subject' => '主旨',
+      'Album' => '相簿',
+      'Artist' => '藝術家',
+      'Title' => '標題',
+      'Location' => '位置',
+      'Tags' => '標籤',
+      'Date Created' => '建立日期',
+      'Rating' => '評分',
+    ),
+    'Labels' => 
+    array (
+      'APPROVED' => '已通過',
+      'PENDING' => '審核中',
+      'REJECTED' => '已拒絕',
+      'Failed to insert new label' => '插入新標記失敗',
+      'No files were labeled' => '沒有任何檔案被標記',
+      'File successfully labeled' => '檔案已成功標記',
+      '%1 files successfully labeled' => '%1 個檔案已成功標記',
+      'Label successfully removed' => '已移除標記',
+      'Labels successfully removed from %1 files' => '%1 個檔案已移除標記',
+    ),
+    'Admin: Tools: Export Users' => 
+    array (
+      'Export' => '匯出',
+    ),
+    'OAuth2' => 
+    array (
+      'OAuth2 Consent' => 'OAuth2 授權',
+      'List files and folders in your "%1" account.' => '列出在你的「%1」帳戶所有檔案和資料夾',
+      'List files and folders inside your "Apps/%1" folder.' => '列出在你的「Apps/%1」資料夾內，所有檔案和資料夾',
+      'Download files available in your "%1" account.' => '下載你的「%1」帳號所有可用的檔案',
+      'Download files from your "Apps/%1" folder.' => '下載你的「Apps/%1」資料夾內所有可用的檔案',
+      'Verification code' => '驗證碼',
+      'Username' => '使用者名稱',
+      'Password' => '密碼',
+      'Proceed' => '繼續',
+    ),
+    'Custom Actions: Archive Explorer' => 
+    array (
+      'Archive Explorer' => '壓縮檔案管理器',
+    ),
+    'Custom Actions: Image Viewer' => 
+    array (
+      'Image Viewer' => '圖片瀏覽器',
+    ),
+    'Custom Actions: ONLYOFFICE' => 
+    array (
+      'Download and install %1' => '下載並安裝 %1',
+      'DocumentServer URL' => 'ONLYOFFICE 伺服器網址',
+      'Document with ONLYOFFICE' => '使用 ONLYOFFICE 開啟檔案',
+      'New Document.docx' => '新增 WORD 文件.docx',
+      'New Spreadsheet.xlsx' => '新增 EXCEL 活頁簿.xlsx',
+      'New Presentation.pptx' => '新增 PPT 簡報.pptx',
+      'Presentation' => '簡報',
+      'Spreadsheet' => '活頁簿',
+      'Word Document' => 'Word 文件',
+      'The file extension needs to be one of the following: %1' => '副檔名必須是以下其中一個：%1',
+      'A file with the specified name already exists. Please try again.' => '檔案名稱已存在。請輸入其他名稱。',
+      'Blank file created successfully' => '已建立空白檔案',
+    ),
+    'Custom Actions: Google Earth' => 
+    array (
+      'Google Maps' => 'Google 地圖',
+    ),
+    'Custom Actions' => 
+    array (
+      'New tab' => '新分頁',
+    ),
+    'Custom Actions: Bing Maps' => 
+    array (
+      'Bing Maps API Key' => 'Bing 地圖 API 金鑰',
+    ),
+    'Admin: Guest Users' => 
+    array (
+      'Enable guest user accounts' => '允許訪客帳號',
     ),
   ),
 );

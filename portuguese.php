@@ -172,7 +172,6 @@
       'Cancel' => 'Cancelar',
       'Please type the current password correctly.' => 'Por favor digite a senha atual corretamente.',
       'Please retype the new password correctly.' => 'Por favor redigite a nova senha corretamente.',
-      'The new password is the same as the current one.' => 'A nova senha é a igual à senha atual.',
     ),
     'E-mail Files' => 
     array (
@@ -283,7 +282,7 @@
       'Metadata' => 'Metadados',
       'Roles' => 'Regras',
       'Groups' => 'Grupos',
-      'Image preview' => 'Miniaturas e pré-visualização de arquivos',
+      'Thumbnails and preview' => 'Miniaturas e pré-visualização de arquivos',
     ),
     'Admin: Setup' => 
     array (
@@ -298,9 +297,8 @@
       'New accounts require admin activation.' => 'Novas contas requerem ativação pelo administrador.',
       'Automatically generate the passwords.' => 'Automaticamente gerar as senhas.',
       'Required fields' => 'Campos requeridos',
-      'Enable ImageMagick support.' => 'Ativar suporte a ImageMagick.',
-      'Path to ImageMagick "convert" binary' => 'Caminho para o binário "convert" do ImageMagick',
-      'Generate ImageMagick thumbnails for the following file types' => 'Gerar miniaturas do ImageMagick para os seguintes tipos de arquivos',
+      'ImageMagick support' => 'Ativar suporte a ImageMagick.',
+      'Path to "magick" or "convert" binary' => 'Caminho para o binário "convert" do ImageMagick',
       'Thumbnail size' => 'Tamanho das miniaturas',
       'Use a SMTP server.' => 'Usar um servidor SMTP.',
       'SMTP server' => 'Servidor SMTP',

@@ -126,8 +126,6 @@
       'Share with users' => 'Κοινοποίηση με τους χρήστες',
       'Get link' => 'Λήψη συνδέσμου',
       'Details and activity' => 'Λεπτομέρειες και δραστηριότητα',
-      'Upload, Delete, Rename, etc.' => 'Μεταφόρτωση, Διαγραφή, Μετονομασία κτλ',
-      'Download, Preview, Copy, etc.' => 'Λήψη, προεπισκόπηση, αντιγραφή κτλ',
       'Versioning' => 'Έκδοση',
       'Previous Versions' => 'Προηγούμενες Εκδόσεις',
       'Lock' => 'Κλείδωμα',
@@ -186,7 +184,7 @@
       'There are no shared files or folders' => 'Δεν υπάρχουν κοινόχρηστα αρχεία ή φάκελοι',
       'Files' => 'Αρχεία',
       'There are no recently accessed files' => 'Δεν υπάρχουν πρόσφατα προσβάσιμα αρχεία',
-      'Folder Activity' => 'Δραστηριότητα Φακέλων',
+      'Activity' => 'Δραστηριότητα Φακέλων',
       'Please type a name for the zip file:' => 'Παρακαλώ πληκτρολογήστε ένα όνομα για το αρχείο zip:',
       'New Archive.zip' => 'Νέο Archive.zip',
       'E-mail' => 'Ηλεκτρονικό Ταχυδρομείο',
@@ -316,7 +314,6 @@
       'Help' => 'Βοήθεια',
       'Date deleted' => 'Ημερομηνία διαγραφής',
       'Search in' => 'Αναζήτηση στο',
-      'Index files' => 'Ευρετήριο αρχείων',
       'Display mode' => 'Λειτουργία προβολής',
       'Detailed list' => 'Αναλυτική λίστα',
       'Thumbnails' => 'Μικρογραφίες',
@@ -560,9 +557,7 @@
       'Cancel' => 'Ακύρωση',
       'Please type the current password correctly.' => 'Παρακαλώ πληκτρολογήστε σωστά τον τρέχοντα κωδικό πρόσβασης.',
       'The password needs at least one character.' => 'Ο κωδικός πρόσβασης χρειάζεται τουλάχιστον έναν χαρακτήρα.',
-      'Please do not use question marks (?) for the new password.' => 'Μην χρησιμοποιείτε ερωτηματικά (?) για τον νέο κωδικό πρόσβασης.',
       'Please retype the new password correctly.' => 'Παρακαλώ πληκτρολογήστε ξανά τον νέο κωδικό πρόσβασης σωστά.',
-      'The new password is the same as the current one.' => 'Ο νέος κωδικός πρόσβασης είναι ο ίδιος με τον τρέχοντα.',
       'Please type your name' => 'Παρακαλώ πληκτρολογήστε το όνομά σας',
       'Please type your e-mail address' => 'Παρακαλώ πληκτρολογήστε το e-mail σας',
       'Basic details' => 'Βασικές λεπτομέρειες',
@@ -839,7 +834,6 @@
       'Failed to clear activity log' => 'Αποτυχία άδειασματος αρχείου καταγραφής δραστηριότητας',
       'Clear log' => 'Διαγραφή αρχείου καταγραφής',
       'Activity log has been successfully archived!' => 'Το αρχείο καταγραφής δραστηριοτήτων έχει αρχειοθετηθεί με επιτυχία!',
-      'No activity records found for this folder' => 'Δεν βρέθηκαν εγγραφές δραστηριότητας για αυτόν τον φάκελο',
     ),
     'Metadata' => 
     array (
@@ -1170,7 +1164,7 @@
     'Custom Actions: ONLYOFFICE' => 
     array (
       'Download and install %1' => 'Λήψη και εγκατάσταση του %1',
-      'ONLYOFFICE server URL' => 'Διεύθυνση URL διακομιστή ONLYOFFICE',
+      'DocumentServer URL' => 'Διεύθυνση URL διακομιστή ONLYOFFICE',
       'Document with ONLYOFFICE' => 'Έγγραφο με ONLYOFFICE',
       'New Document.docx' => 'Νέο Document.docx',
       'New Spreadsheet.xlsx' => 'Νέο Spreadsheet.xlsx',

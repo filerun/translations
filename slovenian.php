@@ -127,7 +127,6 @@
       'File request' => 'Zahtevaj datoteko',
       'Photos' => 'Fotografije',
       'Search in' => 'Išči v',
-      'Index files' => 'Indeksiraj datoteko',
       'Display mode' => 'Način prikaza',
       'Detailed list' => 'Podroben seznam',
       'Thumbnails' => 'Sličice',

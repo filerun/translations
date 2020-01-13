@@ -131,8 +131,6 @@
       'Share with users' => 'مشاركة مع المستخدمين',
       'Get link' => 'رابط مباشر',
       'Details and activity' => 'تفاصيل',
-      'Upload, Delete, Rename, etc.' => 'تحميل، حذف، إعادة تسمية، الخ',
-      'Download, Preview, Copy, etc.' => 'تحميل، معاينة، نسخ، الخ',
       'Versioning' => 'إصدارات',
       'Previous Versions' => 'الإصدارات السابقة',
       'Lock' => 'قفل',
@@ -191,7 +189,7 @@
       'There are no shared files or folders' => 'لايوجد ملف او مجلد تمت مشاركته',
       'Files' => 'الملفات',
       'There are no recently accessed files' => 'لاتوجد ملفات تم الوصول إليها حديثا',
-      'Folder Activity' => 'مجلد نشط',
+      'Activity' => 'مجلد نشط',
       'Please type a name for the zip file:' => 'يرجى كتابة اسم للملف مضغوط:',
       'New Archive.zip' => 'جديد Archive.zip',
       'E-mail' => 'البريد الإلكتروني',
@@ -319,7 +317,6 @@
       'Photos' => 'الصور',
       'Uploading...' => 'جار الرفع...',
       'Help' => 'مساعدة',
-      'Index files' => 'ملفات الفهرس',
       'Display mode' => 'طريقة العرض',
       'Detailed list' => 'قائمة مفصلة',
       'Thumbnails' => 'صور مصغرة',
@@ -561,9 +558,7 @@
       'Cancel' => 'إلغاء',
       'Please type the current password correctly.' => 'الرجاء كتابة كلمة المرور الحالية بشكل صحيح.',
       'The password needs at least one character.' => 'كلمة السر بحاجة حرف واحد على الأقل.',
-      'Please do not use question marks (?) for the new password.' => 'يرجى عدم استخدام علامات استفهام (؟) لكلمة المرور الجديدة.',
       'Please retype the new password correctly.' => 'الرجاء إعادة كتابة كلمة المرور الجديدة بشكل صحيح.',
-      'The new password is the same as the current one.' => 'كلمة المرور الجديدة هي نفس الكلمة القديمة',
       'Please type your name' => 'اكتب اسمك من فضلك',
       'Please type your e-mail address' => 'من فضلك اكتب بريدك الإلكترونى',
       'Basic details' => 'التفاصيل الأساسية',
@@ -938,8 +933,6 @@
 سجل نظيف',
       'Activity log has been successfully archived!' => '
 سجل النشاط تم أرشفته بنجاح',
-      'No activity records found for this folder' => '
-لم يتم العثور على سجلات نشاط لهذا المجلد',
     ),
     'Metadata' => 
     array (
@@ -1134,7 +1127,7 @@
 ',
       'Roles' => 'الأدوار',
       'Groups' => 'المجموعات',
-      'Image preview' => 'معاينة الصورة
+      'Thumbnails and preview' => 'معاينة الصورة
 ',
       'File Manager' => 'مدير الملفات
 ',
@@ -1286,8 +1279,6 @@
 ',
       'User Registration' => 'تسجيل المستخدم
 ',
-      'Show media library' => 'عرض مكتبة الوسائط
-',
       'These settings are not available when using a third-part authentication plugin.' => 'لا تتوفر هذه الإعدادات عند استخدام مكون مصادقة مكون من جزء ثالث.
 ',
       'Maximum login attempts' => 'محاولات تسجيل الدخول القصوى
@@ -1306,11 +1297,9 @@
 ',
       'Required fields' => 'الحقول المطلوبة
 ',
-      'Enable ImageMagick support.' => '
+      'ImageMagick support' => '
 تمكين دعم Magick الصورة.',
-      'Path to ImageMagick "convert" binary' => 'الطريق إلى صورة ماغيك "تحويل" ثنائي
-',
-      'Generate ImageMagick thumbnails for the following file types' => 'قم بإنشاء صور مصغرة لـ ImageMagick لأنواع الملفات التالية
+      'Path to "magick" or "convert" binary' => 'الطريق إلى صورة ماغيك "تحويل" ثنائي
 ',
       'Thumbnail size' => 'حجم الصورة المصغرة
 ',
@@ -1331,7 +1320,7 @@
       'SMTP password' => 'كلمة مرور SMTP
 ',
       'Notifications' => 'إخطارات',
-      'Default sender e-mail address' => 'عنوان البريد الإلكتروني المرسل الافتراضي
+      'From e-mail address' => 'عنوان البريد الإلكتروني المرسل الافتراضي
 ',
       'Instant email notifications' => 'إشعارات البريد الإلكتروني الفورية
 ',
@@ -1617,7 +1606,7 @@
 ',
       'Guest users' => 'مستخدمو الضيوف
 ',
-      'Photos thumbnail size' => 'حجم الصورة المصغرة
+      'Thumbnail size for "Photos" display mode' => 'حجم الصورة المصغرة
 ',
       'Enable file rating' => 'تمكين تقييم الملف
 ',
@@ -2172,8 +2161,6 @@
 تفاصيل',
       'Keyword' => '
 الكلمة',
-      'The search results have been saved to your home folder as "%1"' => '
-تم حفظ نتائج البحث في مجلد رئيسي كـ "٪ 1',
       'Please confirm the archiving and deletion of the activity logs.' => '
 يرجى تأكيد أرشفة وحذف سجلات النشاط.',
       'Activity log has been successfuly archived!' => '
@@ -2925,7 +2912,7 @@
     array (
       'Download and install %1' => 'قم بتنزيل وتثبيت٪ 1
 ',
-      'ONLYOFFICE server URL' => 'عنوان URL لخادم ONLYOICE
+      'DocumentServer URL' => 'عنوان URL لخادم ONLYOICE
 ',
       'Document with ONLYOFFICE' => 'وثيقة مع ONLYOFFICE
 ',
